@@ -1,0 +1,32 @@
+html{
+  background-color: black;
+  color: white;
+}
+header {
+  position: relative;
+  background-image: url(http://www.barcelonaskyline.com/user/scr/2009-01-12-003.jpg);
+  height: 350px;
+  background-size: cover;
+}
+header img{
+  width: 100px;
+  position: absolute;
+  left: 80px;
+  top: 300px;
+  border-radius: 50%;
+}
+.container {
+  padding: 5em 3em;
+}
+.col-left{
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+}
+.col-right {
+  display: inline-block;
+  width: 64%;
+}
+.col-right img{
+  width: 400px;
+}
